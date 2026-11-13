@@ -1,5 +1,5 @@
 /* ── CONFIG ──────────────────────────────────────────────── */
-let BASE_URL = 'https://web-production-0f9c26.up.railway.app';
+let BASE_URL = 'https://web-production-68fcfe7a.up.railway.app';
 let POLL_INTERVAL = 5000;
 let isTicking = false;
 

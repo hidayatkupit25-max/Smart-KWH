@@ -1,5 +1,5 @@
 /* ── CONFIG ──────────────────────────────────────────────── */
-let BASE_URL = 'https://web-production-0f9c26.up.railway.app/';
+let BASE_URL = 'https://web-production-0f9c26.up.railway.app';
 let POLL_INTERVAL = 5000;
 let isTicking = false;
 
@@ -1364,6 +1364,7 @@ function showToast(msg) {
 
 /* ── MAIN LOOP ───────────────────────────────────────────── */
 async function tick() {
+  console.log("TICK BERJALAN");
 
     if (isTicking) {
         console.log("Tick dilewati");
